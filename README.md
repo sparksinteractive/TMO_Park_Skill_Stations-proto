@@ -6,6 +6,20 @@
 Testing realsense D435
 
 MacOS:
+
+- Open Terminal
+
+Install homebrew:
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+Check that installation was successful:
+```
+brew doctor
+```
+
+Install requirements and `librealsense`
 ```
 brew install libusb pkg-config
 brew install homebrew/core/glfw3
@@ -15,4 +29,3 @@ brew install librealsense
 
 Launch viewer with `realsense-viewer`
 
-Build from source using (https://github.com/GitwellAnyohub/Real_Sensible_Moseq/blob/master/bash_and_install/install_realsense_sdk_mac_os.sh)
